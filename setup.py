@@ -11,6 +11,6 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     license='MIT',
-    packages=['metrics'],
+    packages=['tf_segmetrics'],
     install_requires=['tensorflow', 'numpy'],
 )
