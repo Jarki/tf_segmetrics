@@ -38,7 +38,7 @@ def classwise_dice(y_pred, y_true, smooth=1e-5):
     
     return dice
 
-def classswise_precision(y_pred, y_true):
+def classwise_precision(y_pred, y_true):
     classes = y_pred.shape[-1]
 
     y_true = tf.one_hot(y_true[..., -1], classes)
